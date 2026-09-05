@@ -26,12 +26,12 @@ cloud "Local Network" {
     }
 }
 
-system -----> script_network : 4
+system -> script_network : 4
 ' system -> script_network : 4
 
 script_network -> script_comp : 5
 
-system -> script_comp : 6
+system -down-> script_comp : 6
 
 script_comp -> system : 7
 script_comp <-> server : 8
