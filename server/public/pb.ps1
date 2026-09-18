@@ -1,4 +1,4 @@
-$Server = "http://192.168.31.234:3000"
+$Server = "http://192.168.31.85:3000"
 
 $ComputerName = $env:COMPUTERNAME
 $Username = $env:USERNAME
